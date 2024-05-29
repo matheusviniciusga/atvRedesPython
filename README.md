@@ -6,6 +6,7 @@
 - Matheus Vinícius G. de Andrade
 - Maria Cecília Sitcovsky
 -------------------------------------------------------------
+
 ## Introdução
 a
 
@@ -24,6 +25,7 @@ b
 b
 #### Função para Iniciar o Servidor
 b
+
 -------------------------------------------------------------
 ### Cliente
 a
