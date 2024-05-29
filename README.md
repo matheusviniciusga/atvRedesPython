@@ -1,5 +1,6 @@
-# atvRedesPython
-Atv. Chat Via Socket
+# Atividade Chat Via Socket
+Disciplina: Redes de Computadores
+Prof.: Daniel Bezerra
 
 # Integrantes
 - Matheus Vinícius G. de Andrade
