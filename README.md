@@ -1,6 +1,6 @@
 # Atividade Chat Via Socket
-Disciplina: Redes de Computadores
-Prof.: Daniel Bezerra
+- Disciplina: Redes de Computadores
+- Prof.: Daniel Bezerra
 
 # Integrantes
 - Matheus Vinícius G. de Andrade
