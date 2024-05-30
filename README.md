@@ -14,9 +14,13 @@ a
 a
 
 #### Cabeçalho
-b
+O cabeçalho é definido em 64 "bytes", representando o tamanho que cada mensagem precisa possuir ao ser enviada a um servidor.
 #### Endereço Local IP
-b
+Para descobrir o endereço IP da sua máquina, digite no cmd 'ipconfig' e no protocolo IPV4 é onde estará o seu IP, ou use o segundo script para obter automaticamente oseu IP.
+~~~Python
+SERVER = "127.0.0.1"
+SERVER = socket.gethostbyname(socket.gethostname())
+~~~
 #### Outras Configurações
 b
 #### Indicando a Conexão Específica
