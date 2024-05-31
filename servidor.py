@@ -59,6 +59,7 @@ def broadcast(msg, client):
 def remove(client):
     clients.remove(client)
 
+# Função que inicia o "Servidor", permitindo a escutar "Clientes" que querem se conectar a ele
 def start():
     server.listen() # Método para dizer que o "Servidor" está pronto para escutar/ouvir todas as conexões existentes
     print(f'O Servidor [{SERVER}] está escutando...')

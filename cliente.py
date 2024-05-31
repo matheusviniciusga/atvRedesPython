@@ -52,7 +52,7 @@ def enviarMensagens(client, username):
             client.close()
             break
 
-#Criação dos threads, para que as funções de receber e meandar mensgaens funcionem simultaniamente
+#Criação dos threads, para que as funções de receber e mandar mensgaens funcionem simultaniamente
 thread1 = threading.Thread(target=receberMensagens, args=[client]) # Parâmetro 'target' recebe a função que vai ser executada, e o parâmetro 'args' é o argumento(s) dentro de uma lista que a função recebe
 thread2 = threading.Thread(target=enviarMensagens, args=[client, username])
 
